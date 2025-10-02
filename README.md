@@ -21,14 +21,15 @@ The objective of this task was to **capture live network packets** and identify 
 ##  Steps Performed  
 
 1. Installed and launched Wireshark.  
-2. Started packet capture on the active network interface.  
+2. Started packet capture on the active network interface(wifi).  
 3. Browsed websites (e.g., Mozilla, Firefox) to generate traffic.  
 4. Stopped the capture after ~1 minute.  
 5. Filtered traffic by protocol (e.g., `tcp`, `dns`).  
 6. Identified at least **3 different protocols**:  
    - **TCP** (Transmission Control Protocol)  
    - **DNS** (Domain Name System)  
-   - **TLSv1.2** (Transport Layer Security)  
+   - **TLSv1.2** (Transport Layer Security)
+   - **HTTP**(HyperText Transfer Protocol)
 7. Exported the capture as `.pcapng`.  
 8. Summarized findings with screenshots.  
 
@@ -57,7 +58,7 @@ The objective of this task was to **capture live network packets** and identify 
 
 ---
 
-## 📑 Summary of Findings  
+##  Summary of Findings  
 
 - Successfully captured **live traffic** using Wireshark.  
 - Identified and analyzed **TCP, DNS, and TLS , HTTP protocols**.  
@@ -66,7 +67,7 @@ The objective of this task was to **capture live network packets** and identify 
 
 ---
 
-## 🎯 Outcome  
+##  Outcome  
 This task improved my **hands-on packet analysis skills** and built **protocol awareness**, which is essential for network troubleshooting and cybersecurity monitoring.  
 
 ---
